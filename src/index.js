@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import AppBar from './component/appbar';
 
 const App = () => {
     return (
-        <h1>Testing</h1>
+        <AppBar/>
     )
 }
 
